@@ -1,0 +1,23 @@
+mounth = int(input("Enter mounth: "))
+
+
+if mounth <= 2 :
+    def mounth():
+        print ('winter')
+elif mounth >2 and mounth <= 5:
+    def mounth():
+        print('spring')
+elif mounth >5 and mounth <= 8:
+    def mounth():
+        print('summer')
+elif mounth >8 and mounth <= 11:
+    def mounth():
+        print('autumn')
+elif mounth >11 and mounth <=12:
+    def mounth():
+        print('winter')
+else:
+    print("Not correct mounth")
+
+mounth()
+
